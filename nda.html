@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======== css ============= -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/quiz.css" />
+    <!-- ======= Favicon ===== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+    <link rel="manifest" href="./favicon_io/site.webmanifest" />
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />    
+    <title>StudyEase - India's largest Studying App</title>
+  </head>
+  <body>
+    <!-- <div class="cursor"></div>
+    <div class="cursor2"></div> -->
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="index.html" class="nav__logo"
+          >Study<span class="logo20color">Ease</span> • Courses - NDA
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link active-link">Home</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- ========= Course Page ========= -->
+    <section class="app section bd-container">
+      <div class="app__container bd-grid">
+        <div class="app__data">
+          <span class="section-subtitle app__initial">Prepare For NDA - National Defence Academy</span>
+          <h2 class="section-title app__initial">National Defence Academy</h2>
+          <p class="app__description">
+            This course provides you thee best in depth video video tutorials with indept learning modules. We also provide you the practice you
+            need to master the subject with fun and enthusiastic form of
+            learning with quizzez.
+            <br /><br />
+            All the video lectures are by certified proffesionals just
+            for your perfect learning. All the pre-requisite you need is just
+            time.
+          </p>
+        </div>
+
+        <!-- <img src="assets/img/movil-app.png" alt="" class="app__img" /> -->
+        <iframe
+          class="app__img"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ldK3Ys1Le64"
+          title="NDA Crash Course"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <!-- Timline -->
+    <section class="questions app section bd-container">
+      <h2 class="section-title app__initial" id="dataScience_text">
+        Topics To Be Covered In The Video.
+      </h2>
+      <br>
+      <p class="app__description topic_desc">
+      This session will cover these topics:
+      <br>
+      <br>
+      • Introduction + Start - 0:00
+      <br>
+      • Biology - 01:45
+      <br>
+      • History - 03:24:32  
+      <br>
+      • Chemistry - 05:46:45
+      <br>
+      • Physics - 07:22:58
+    </section>
+    <!-- About Data Science -->
+    <section class="questions app section bd-container">
+      <h2 class="section-title app__initial" id="dataScience_text">
+        What is NDA ?
+      </h2>
+      <br class="app__description" id="science__description">
+        <!-- Content -->
+        The National Defence Academy (NDA) is the joint defence service training institute of the Indian Armed Forces, where cadets of the three services i.e. the Indian Army , the Indian Navy and the Indian Air Force train together before they go on to respective service academy for further pre-commission training. The NDA is located in Khadakwasla, Pune, Maharashtra. 
+         It is the first tri-service academy in the world.
+      </p>
+    </section>
+
+    <section class="questions app section bd-container">
+      <h2 class="section-title app__initial" id="dataScience_text">
+        Subjects To Study For NDA ?
+      </h2>
+      <br class="app__description" id="science__description">
+        <!-- Content -->
+        NDA Exams are held two times a year through offline mode (written test). The written test of NDA 2 2021 has been scheduled for November 14, 2021, and the registration process has begun on June 9, 2021, The exam consists of 2 sections- Mathematics and General Ability Test. The total duration of NDA 2021 is 5 hours combined for both sections.
+        <br><br>
+        Those who clear the written exam will proceed to the NDA SSB Interview Process. The SSB Interview dates for NDA 2 2021 have not been announced yet. UPSC sets the cutoff score to prepare the merit list of candidates who are called for the five-day selection process.
+      </p>
+    </section>
+    <section class="section bd-container">
+      <embed src="./assets/quizes/nda/ndapdf.pdf" width="100%" height="500px" type="application/pdf">
+    </section>
+    <section class="quiz_section">
+        <a href="./ndaquiz.html" id="quizBtn" class="button">Take Quiz</a>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/cursor.js"></script>
+    <script src="./assets/quizes/nda/questions.js"></script>
+    <script src="./assets/quizes/nda/script.js"></script>
+  </body>
+</html>
